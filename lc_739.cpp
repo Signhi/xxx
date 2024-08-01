@@ -49,7 +49,7 @@ public:
 
 int main(){
 
-
+    int xx = 10;
     vector<int> v = {73,74,75,71,69,72,76,73};
     Solution s;
     // for(int ii = 0; ii < 5; ii++) s.addA();
