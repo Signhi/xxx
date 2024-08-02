@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.28)
+project(CALC)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(app add.cpp mul.cpp sub.cpp main.cpp)
