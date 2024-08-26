@@ -21,7 +21,7 @@ int main() {
 
         dp.push_back(nums[ii]);
         max_v.push_back(max_num);
-    }
+    }   
     
     for(int jj = k; jj < n; jj++){
         dp.push_back(max_v[jj - k] + nums[jj]);
