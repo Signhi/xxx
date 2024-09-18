@@ -42,6 +42,7 @@ int main() {
     }
     
     for(int jj = 1; jj < n; jj++){
+        int a = 2;
         vector<vector<int>> vp;
         vector<int> vv = {};
         dfs(vp, vv, n, jj);
